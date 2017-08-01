@@ -1,0 +1,13 @@
+* {
+    background-color: beige;
+}
+
+h1 {
+    font-size: 36px;
+    color: blue;
+    text-align: center;
+}
+
+h1+p {
+    color: red;
+}
