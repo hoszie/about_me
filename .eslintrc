@@ -9,7 +9,7 @@
   "rules": {
     "semi": [2, "always"],
     "no-undefined": 2,
-    "indent": [2, 2],
+    "indent": [4, "tab"],
     "quotes": [1, "single"],
     "no-multi-spaces": [1, {
       "exceptions": {
