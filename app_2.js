@@ -1,11 +1,14 @@
 'use strict';
 alert('Hello');
 
+//              var score = 0;
+
 var europe = prompt('Have I ever been to Europe?').toLowerCase();
 if (europe === 'yes' || europe === 'y') {
 	alert('Na, still haven\'t been.');
 } else {
 	alert('You\'re right, but I really want to go though.');
+	//        score = score + 1;
 }
 console.log(europe);
 
@@ -43,7 +46,13 @@ console.log(iceCream);
 
 
 
+
+
+
 //guessing-game
+
+
+
 
 var myCar = 'ford';
 var guessCount = 0;
@@ -95,6 +104,7 @@ do {
 		alert( 'No, not that one.')
 	} else {
 		alert( 'That\'s the one. Chicago is nuts.' );
+		// 				score ++
   }
 	guessCount ++;
 } while ( lastState !== guess && guessCount < 3 );
@@ -117,13 +127,13 @@ for (var i = 0; i < 4; i++) {
   } 
 	guessCount ++;
 }
-console.log( 'I\'ve visited' + visitedStates + 'states.' );
+console.log( 'I\'ve visited ' + visitedStates + ' states.' );
 
 // indexOf
-var visitedCountry = ['india', 'canada', 'nepal', 'nicaragua', 'laos'];
+var visitedCountry = [ 'india', 'canada', 'nepal', 'nicaragua', 'laos' ];
 do {
 	var guess = prompt( 'What countries have I visited?' ).toLowerCase();
-	if (visitedCountry.indexOf ( guess ) !== -1) {
+	if ( visitedCountry.indexOf ( guess ) !== -1) {
 		alert( 'Been there! ');
 		break;
     } else {
@@ -131,3 +141,11 @@ do {
   }
 } while ( visitedCountry !== guess );
 console.log( visitedCountry );
+
+
+// while ( !visitedCountry.includes ( guess ) )
+
+
+
+//  alert ( 'Your score: ' + score)
+

@@ -1,4 +1,4 @@
-main {
+background {
     background-color: blanchedalmond;
 }
 
@@ -7,6 +7,7 @@ h1 {
     color: blue;
     text-align: center;
     font-family:'Sedgwick Ave Display', cursive;
+    font-stretch: 2px;
 }
 
 lh {
@@ -17,10 +18,6 @@ lh {
 li {
     font-size: 18px;
     line-height: 1.5em;
-}
-
-.lists {
-    display: inline-block;
 }
 
 .lolita {
@@ -34,4 +31,12 @@ li {
 
 p {
     font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+ol {
+    float: right;
+}
+
+ul {
+    width: 200px;
 }
