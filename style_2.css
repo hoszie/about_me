@@ -1,42 +1,78 @@
-background {
-    background-color: blanchedalmond;
+body {
+    background-color: grey;
 }
 
 h1 {
     font-size: 42px;
-    color: red;
+    color: navy;
     text-align: center;
-    font-family:'Sedgwick Ave Display', cursive;
-    font-stretch: 2px;
+    font-family:'Times New Roman', cursive;
+    font-stretch: 3px;
+}
+
+
+    
+    
+
+
+
+img {
+    width: 120px;
+    height: 150px;
+    float: right;
+    border-radius: 100%;
+
+}
+ 
+#about {
+    
+    border: 1px solid navy;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    background-color: beige;
+    margin: 20px;
+}
+#lolita {
+    border: 1px solid navy;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    background-color: beige;
+    margin: 20px;
+}
+/* 
+p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+} */
+
+
+ul #nav-bar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li.nav {
+    float: left;
+    list-style: none;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
 }
 
 lh {
-    font-size: 24px;
-    text-align: center;
-}
-
-li {
-    font-size: 18px;
-    line-height: 1.5em;
-}
-
-.lolita {
-    border: 1px solid navy;
-    border-radius: 10px;
-    padding: 15 px;
-    text-align: center;
-    background-color: whitesmoke;
-    margin: 20px;
-}
-
-p {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-}
-
-ol {
-    float: right;
-}
-
-ul {
-    width: 200px;
+    font-size: 20px;
+    
 }
